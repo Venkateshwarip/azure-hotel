@@ -1,0 +1,381 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>AQUA</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+			<!--->
+			<section>
+				<div class=" bg-gradient-to-tl from-blue-300 to-white-500 pt-25 w-200 h-180 md:pt-25 md:w-195 md:h-180 xl:pt-25 xl:w-full xl:h-180">
+				
+					<div class="grid grid-rows-2 pt-10 md:grid grid-cols-2 md:pt-10 xl:grid grid-cols-2 xl:pt-10">
+					
+						<div class=" z-10 xl:z-10 md:z-10 xl:overflow-visible">
+							<img src="image\aqua1.jpg" class="border-10 border-solid border-blue-300 rounded-full h-70 w-70 -mt-10 ml-30 md:h-80 md:w-80 md:ml-10 md:-mt-8  xl:h-100 xl:w-100 xl:ml-70 xl:-mt-10">
+						</div>
+						
+						
+						<div class=" bg-blue-800 rounded-xl pt-20 -ml-10 h-130 w-90 md:pt-10 md:-ml-20 md:h-130 md:w-100 xl:pt-20 xl:-ml-20 xl:h-130 xl:w-full">
+							<p class="text-2xl font-bold text-blue-300 pl-25 font-serif -ml-10 w-100 pt-3 md:text-3xl md:pl-30 md:w-105 md:pt-1 xl:text-4xl xl:pl-30 xl:pt-3 xl:w-175">🌊 AQUA-Beyond the Horizon</p>
+							<p class="text-white text-base pt-5 pl-60 font-bold font-mono pt-5 -ml-50  md:pt-5 md:pl-65 xl:pt-5 xl:pl-80 ">Where water meets the sky.</p>
+							<p class="text-justify text-2xl font-semibold text-white w-80 pl-10 pt-10 md:w-82 md:pl-7 md:pt-10 xl:w-150 xl:pl-20 xl:pt-10">Float above the city, breathe in the open sky, 
+							and let the edge of our infinity pool disappear into the horizon.</p>
+							<button class="text-xl font-bold text-blue-400 bg-blue-100 border-5 h-10 w-60 mt-10 ml-15  md:mt-20 md:ml-20 xl:mt-20 xl:ml-40 ">Explore Pool</button>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!---Family Splash--->
+			<section>
+			<div class="flex flex-rows-2 bg-gradient-to-tl from-blue-300 to-white-500 mt-5 h-150 w-200 md:h-150 md:w-195 xl:h-150 xl:w-full">
+				<div>
+					<div class="ml-50 mt-10">
+						<p class="text-2xl font-bold bg-gradient-to-tl from-blue-200 to-white-500 border-5 border-blue-400 h-15 w-50 p-2 ">Family Splash</p>
+					</div>
+					<div>
+						<p class="text-xl w-130 ml-30 mt-8">Create joyful moments together with a relaxed pool experience designed for families.</p>
+					</div>
+					<div class="mt-10 ml-10">
+						<ul class="list-disc ml-20 space-y-10">
+							<li class="text-xl font-bold text-black">Family Favourites:</li>
+							<li class="text-xl font-bold text-blue-500">🏊 Safe swimming areas</li>
+							<li class="text-xl font-bold text-blue-500">🛟 Pool accessories</li>
+							<li class="text-xl font-bold text-blue-500">🍦 Refreshing treats</li>
+							<li class="text-xl font-bold text-blue-500">📸 Family photo moments</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="grid grid-rows-2 md:mt-15 md:-ml-20  xl:mt-15 xl:ml-20">
+					<div>
+						<img src="image\aqua2.jpg" class="h-40 w-40 border-white border-6 rotate-10 -ml-5 mt-3 md:h-40 md:w-40 xl:h-40 xl:w-40">
+					</div>
+					<div>
+						<img src="image\aqua3.jpg" class="h-40 w-40 rotate-30 -mt-5 -ml-15 border-white border-6 md:h-40 md:w-40 md:-mt-0 md:-ml-5 xl:h-50 xl:w-50 xl:-mt-5 xl:-ml-5">
+					</div>
+					<div>
+						<img src="image\offer3.jpg" class="h-40 w-40 -ml-60 -mt-90 rotate-20 border-white border-6 md:h-40 md:w-40 md:-ml-50 md:-mt-90 xl:h-60 xl:w-60 xl:ml-70 xl:-mt-90">
+					</div>
+				</div>
+			</div>
+			</section>
+			<!---A Day at Aqua--->
+			<section>
+				<div class="mt-5 bg-gradient-to-tl from-yellow-100 to-white-500 pt-20 pb-20 h-200 w-200 md:w-195 md:h-200 xl:w-full xl:h-180 ">
+				<div>
+					<p class="text-2xl font-bold bg-gradient-to-tl from-yellow-100 to-white-500 text-yellow-300 border-5 border-yellow-300 h-15 w-65 p-2 ml-60 -mt-10 md:h-15 md:w-65 md:p-2 md:ml-60 md:-mt-10 xl:h-15 xl:w-65 xl:p-2 xl:ml-140 xl:-mt-10">💦 A Day at Aqua</p>
+				</div>
+					<div class=" ml-30 mt-10 md:ml-30 md:mt-10 xl:ml-30 xl:mt-10">
+						<p class="text-7xl h-40 w-40 border-3 border-yellow-300 rounded-full pl-6 pt-6">🌅</p>
+						<p class="text-7xl ml-15">↓</p>
+						<div class="text-center -ml-130  md:-ml-130 xl:-ml-260">
+							<p class="font-semibold">08:00 — Sunrise Swim</p>
+							<p class="font-semibold ">Begin with a peaceful morning dip.</p>
+						</div>
+					</div>
+					
+					<div class=" ml-30 mt-10 md:ml-30 md:mt-10 xl:ml-100 xl:-mt-10">
+						<p class="text-7xl h-40 w-40 border-3 border-yellow-300 rounded-full pl-6 pt-6">🏊‍♀️</p>
+						<p class="text-7xl ml-15">↓</p>
+						<div class="text-center -ml-120 md:-ml-120 xl:-ml-190">
+							<p class="font-semibold">11:00 — Poolside Relaxation</p>
+							<p class="font-semibold ">Settle into your favourite lounger.</p>
+						</div>
+					</div>
+					
+					<div class=" -mt-150 ml-120 md:-mt-150 md:ml-120 xl:-mt-130 xl:ml-160">
+						<p class="text-7xl h-40 w-40 border-3 border-yellow-300 rounded-full pl-6 pt-8">🍹</p>
+						<p class="text-7xl ml-15">↓</p>
+						<div class="text-center -ml-30 md:-ml-30 xl:-ml-120">
+							<p class="font-semibold ">08:00 — Sunrise Swim</p>
+							<p class="font-semibold ">Begin with a peaceful morning dip.</p>
+						</div>
+					</div>
+				
+					<div class=" ml-120 mt-10 md:ml-120 md:mt-10 xl:ml-250 xl:-mt-10">
+						<p class="text-7xl h-40 w-40 border-3 border-yellow-300 rounded-full pl-6 pt-8 ">⛅</p>
+						<p class="text-7xl ml-15">↓</p>
+						<div class="text-center -ml-35 md:-ml-35">
+							<p class="font-semibold ">11:00 — Poolside Relaxation</p>
+							<p class="font-semibold ">Settle into your favourite lounger.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---Poolside Moments--->
+			<section>
+			<div class="bg-[url('image/aqua4.jpg')] bg-no-repeat bg-cover bg-center h-170 w-200  md:w-195 md:h-150 mt-5 xl:w-full xl:h-150">
+			<div class="grid grid-cols-3">
+				<div class="grid grid-rows-2 -ml-30 md:-ml-30 xl:ml-0">
+					<div class="mt-30">
+						<p class="text-5xl h-30 w-30 border-3 border-yellow-300 rounded-full pl-5 pt-5 bg-white ml-40">🍹</p>
+						<div class="text-center font-bold ml-10 md:ml-10 xl:ml-0">
+							<p>Signature</p>
+							<p>Coolers</p>
+						</div>
+					</div>
+					<div class="mt-20">
+						<p class="text-5xl h-30 w-30 border-3 border-yellow-300 rounded-full pl-7 pt-6 bg-white ml-40">🥤</p>
+						<div class="text-center font-bold ml-10 md:ml-10 xl:ml-0">
+							<p>Fresh</p> 
+							<p>Juices</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="mt-20 -ml-20  md:-ml-20 xl:-ml-10">
+					<div class=" w-105 md:w-105 xl:w-115">
+						<img src="image\aqua5.jpg" class="h-120 md:h-120  xl:h-120 rounded-full object-cover ">
+					</div>
+					<p class="font-bold text-xl -mt-100 ml-30 md:text-xl md:-mt-100 md:ml-30 xl:text-3xl text-blue-800 xl:-mt-100 xl:ml-20">Poolside Moments</p>
+					<p class="ml-15 text-yellow-600 mt-5 text-xl md:mt-5 md:text-xl xl:mt-5 xl:text-2xl">────── 〰 〰 〰 ──────</p>
+					<p class="ml-20 font-bold text-red-500 text-xl  md:ml-20 md:text-xl xl:text-3xl xl:ml-15">Refresh • Relax • Repeat</p>
+					<div class="text-center text-xl ml-5 md:text-xl md:ml-5 xl:ml-0 font-bold mt-10 xl:text-2xl">
+						<p>Enjoy refreshing drinks and light</p>
+						<p>bites without leaving the comfort</p>
+						<p>of the poolside.</p>
+					</div>
+				</div>
+				
+				<div class="grid grid-rows-2 -ml-10">
+				
+					<div class="mt-30">
+						<p class="text-5xl h-30 w-30 border-3 border-yellow-300 rounded-full pl-5 pt-5 bg-white ml-40">🍓</p>
+						<div class="text-center font-bold ml-35 xl:-ml-10">
+							<p>Fresh</p> 
+							<p>Fruit</p>
+						</div>
+					</div>
+					<div class="mt-20">
+						<p class="text-5xl h-30 w-30 border-3 border-yellow-300 rounded-full pl-5 pt-7 bg-white ml-40">🥗</p>
+						<div class="text-center font-bold ml-35 xl:-ml-10">
+							<p>Light</p>
+							<p>Bites</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			</section>
+			
+			<!---Private Cabanas--->
+			<section>
+				<div class="grid grid-rows-3 bg-gradient-to-bl from-yellow-100 to-white-500 h-100 w-200 mt-5 md:grid grid-cols-3 md:h-90 md:w-195 md:mt-5 xl:grid grid-cols-3 xl:mt-5 xl:h-90 xl:w-full">
+					<div class="md:ml-0 xl:ml-20">
+						<div class="border-5 border-yellow-600 h-30 w-50 p-3 mt-10">
+							<p class="text-4xl pl-11">🛋️</p>
+							<p class="font-bold text-xl">Premium seating</p>
+						</div>
+						<div class="border-5 border-yellow-600 h-30 w-50 p-3 mt-10">
+							<p class="text-4xl pl-11">🌴</p>
+							<p class="font-bold text-xl pl-5">Private shade</p>
+						</div>
+					</div>
+					
+					<div class="border-5 border-yellow-600 h-70 w-88 mt-10 -ml-12 md:h-70 md:w-88 md:mt-10 md:-ml-12 xl:ml-0 xl:h-70 xl:w-100 xl:mt-10">
+						<div>
+							<p class="font-bold text-3xl ml-18 mt-5">Private Cabanas</p>
+						</div>
+						<p class=" text-blue-400 text-3xl mt-5 ml-10">────── ✦ ──────</p>
+						<div class="text-center font-semibold mt-7">
+							<p>Escape into your own shaded retreat</p>
+							<p>Our private cabanas offer comfortable</p>
+							<p>seating, personal service, and</p>
+							<p>uninterrupted poolside relaxation.</p>
+						</div>
+					</div>
+					
+					<div class=" ml-15 md:ml-15 xl:ml-30">
+						<div class="border-5 border-yellow-600 h-30 w-50 p-3 mt-10">
+							<p class="text-4xl pl-11">🍹</p>
+							<p class="font-bold text-xl">Personal service</p>
+						</div>
+						<div class="border-5 border-yellow-600 h-30 w-50 p-3 mt-10">
+							<p class="text-4xl pl-11">📶</p>
+							<p class="font-bold text-xl">Complimentary Wi-Fi</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!---Aqua After Dark--->
+			<section>
+				<div class="bg-gradient-to-tr from-blue-800 to-black rounded-full h-120 w-190 xl:h-120 xl:w-full mt-5 pl-30 pt-10">
+						<div class="border-5 border-white text-white h-80 w-150 mt-10 md:h-80 md:w-150 md:mt-10 md:-ml-10 xl:h-90 xl:w-160 xl:mt-10 xl:ml-50 "style="border-style:inset">
+							<p class="text-4xl font-bold ml-40 mt-5">Aqua After Dark</p>
+							<p class="text-4xl ml-40 mt-5">━━━━━━ ◇ ━━━━━━</p>
+							<div class="text-center text-2xl mt-15">
+								<p>As the sun sets, Aqua transforms into an</p>
+								<p>enchanting evening retreat with illuminated</p>
+								<p>water, soft music, and a magical skyline atmosphere.</p>
+							</div>
+						</div>
+						<div class="grid grid-rows-2 grid-cols-2 -mt-50">
+							<p class="text-7xl -ml-10 md:-ml-20  xl:ml-40 -mt-45">☃</p>
+							<p class="text-7xl ml-48 -mt-40 md:ml-45 md:-mt-45 xl:ml-45 xl:-mt-45">☃</p>
+							<p class="text-7xl -ml-10 md:-ml-20  xl:ml-40 mt-10">☃</p>
+							<p class="text-7xl ml-48 mt-5 md:ml-45 md:mt-5 xl:ml-45 xl:mt-5">☃</p>
+						</div>
+				</div>
+			</section>
+			<!---footer--->
+				<section>
+					<div class=" mt-2 md:mt-2 xl:mt-2 w-200 md:w-195 xl:w-full">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html>
