@@ -1,0 +1,322 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title> ABOUT-US-AZURE CROWN HOTEL</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+			<!---ABOUT-US--->
+			<section >
+				<div class="sm:grid grid-cols-2 bg-gray-300 w-auto px-20 pt-25 text-black  hover:bg-yellow-900  text-white md:grid grid-cols-2 md:bg-gray-300 md:w-full md:px-0 md:pt-30 xl:grid grid-cols-2 xl:bg-gray-300 xl:w-full xl:px-20 xl:pt-30">
+					<div class="ml-3 mt-0 w-60 text-justify md:ml-10 md:mt-10 md:w-70 md:text-justify xl:ml-30 xl:mt-10 xl:w-90 xl:text-justify">
+						<p class="text-4xl font-bold text-white">About Us</p>
+						<p class="text-xl font-medium mt-10" style="line-height:2.0">At <b>Azure Crown Hotel</b>,luxury is more than just a service-it's an experience crafted with passion,perfection and care.</p>
+					</div>
+					<div class="w-80 md:w-90 xl:w-90">
+						<img src="image\aboutus1.jpg" class="rounded-full h-80 -ml-10  md:rounded-full md:h-90  md:-ml-10 xl:rounded-full xl:h-90 xl:w-170 xl:ml-20">
+					</div>
+				</div>
+			</section>
+			
+			<!---About--->
+			<section>
+				<div class="sm:grid grid-rows-2 mt-5 mx-10 md:grid grid-cols-2 md:mt-5 md:mx-10 xl:grid grid-cols-2 xl:mt-5 xl:mx-30">
+					<img src="image\hotelimage.jpg" class="h-90 w-100 rounded-4xl md:h-110 md:w-100 md:rounded-4xl md:mt-25 xl:h-90 xl:w-100 xl:rounded-4xl xl:mt-0">
+					<div class="ml-5 md:ml-2 xl:-ml-20">
+						<p class="mt-5 text-xl font-bold">ABOUT 👑</p>
+						<p class="mt-5 text-2xl font-bold text-yellow-600">Azure Crown Hotel</p>
+						<p class="mt-5 text-justify" style="line-height:2.0">Azure Crown Hotel is a premium luxury destination located in Chennai, 
+						offering a perfect blend of comfort, style, and world-class hospitality. 
+						Designed for business travelers, families, couples, and tourists, 
+						our hotel provides elegant accommodations, modern facilities, and 
+						personalized services to meet every guest's needs. <br><br>
+						From beautifully designed rooms to award-winning dining and relaxing 
+						wellness experiences, every detail is carefully crafted to ensure your stay is truly memorable.</p>
+				</div>
+			</section>
+			<!---vision mission--->
+			<section class="mt-5 md:-mt-110 xl:-mt-80">
+			<div class="sm:h-250 bg-gray-300 md:h-290 xl:h-150">
+				<div class="sm:grid grid-rows-2 ml-5 pt-20 pb-20  md:grid grid-rows-2  md:ml-20 md:pt-20 md:pb-20 xl:grid grid-cols-2 xl:ml-20 xl:pt-20 xl:pb-20 ">
+					<div class="bg-gray-400 border-10 border-solid border-white px-5 pt-5 w-80 rounded-4xl md:px-20 md:pt-5 md:w-140 md:rounded-4xl xl:px-20 xl:pt-5 xl:w-140 xl:rounded-4xl">
+						<p class="text-2xl text-yellow-500 font-bold">👁 OUR VISION</p>
+						<p class="w-70 text-justify pt-5 pb-5 text-xl md:w-100 md:pt-5 md:pb-5 md:text-xl xl:w-100 xl:pt-5 xl:pb-5 xl:text-xl "style="line-height:2.0">To become one of the leading luxury hotels by delivering exceptional hospitality, 
+						innovative services, and memorable experiences that exceed every guest's expectations.We aim to set new standards in the hospitality 
+						industry through continuous improvement and excellence in service.</p>
+					</div>
+					
+					<div  class="bg-gray-400 border-10 border-solid border-white px-20 pt-5 w-80 rounded-4xl mt-10 md:mt-5 md:-ml-86 md: row-start-2 md:px-20 md:pt-5 md:w-140 md:rounded-4xl xl:px-20 xl:pt-5 xl:w-140 xl:rounded-4xl xl:-mt-0 xl: col-start-2 xl:row-start-1 xl:ml-0">
+						<p class="text- xl  text-yellow-500 font-bold md:text-2xl xl:text-2xl">📖 OUR MISSION</p>
+						<ul class="list-disc -ml-7 w-60 text-justify pt-5 pb-5 text-xl md:pl-1 md:w-100 md:text-justify md:pt-5 md:pb-5 md:text-xl xl:pl-1 xl:w-100 xl:text-justify xl:pt-5 xl:pb-5 xl:text-xl"style="line-height:1.7">
+							<li>Provide outstanding customer service with genuine hospitality.</li>
+							<li>Offer luxurious accommodations with modern amenities.</li>
+							<li>Maintain the highest standards of cleanliness, comfort, and safety.</li>
+							<li>Promote eco-friendly and sustainable hospitality practices.</li>
+							<li>Create unforgettable experiences for every guest.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</section>
+			<!---OUR SERVICES--->
+			<section>
+				<p class="text-center text-4xl font-bold mt-5 text-blue-900 pb-10">OUR SERVICES</p>
+				<marquee class="mt-5 pb-20">
+					<div class="grid grid-cols-6 space-x-4 w-full md:space-x-4 xl:space-x-4">
+						<img src="image\services1.jpg" class=" h-60 w-50 space-x-10 col-start-1">
+						<img src="image\services2.jpg" class=" h-60 w-50 space-x-10 col-start-2">
+						<img src="image\services3.jpeg"class=" h-60 w-50 space-x-10 col-start-3">
+						<img src="image\services4.jpg"class=" h-60 w-50 space-x-10 col-start-4">
+						<img src="image\services5.jpg"class=" h-60 w-50 space-x-10 col-start-5">
+						<img src="image\services6.jpg"class=" h-60 w-50 space-x-10 col-start-6">
+					</div>
+				</marquee>
+			</section>
+			<!---OUR CORE VALUES--->
+			<section>
+			<div class="bg-blue-900 pb-10 -mt-20">
+				<p class="text-center text-4xl font-bold mt-10 text-yellow-600 pb-10">OUR CORE VALUES</p>
+				<div class="xl:grid grid-cols-3 xl:grid-rows-2 xl:mx-20 mt-10 md:mx-60 mx-15 ">
+					<div class="border-5 border-solid border-yellow-600 w-70 h-40 space-y-2 text-center bg-white">
+						<P class="bg-blue-900 w-7 rounded-full px-1 py-1 ml-30 mt-4">⭐</P>
+						<p class="font-bold text-yellow-600">EXCELLENCE</p>
+						<p>We strive to provide the highest quality in everything we do.</p>
+					</div>
+					
+					<div class="border-5 border-solid border-yellow-600 w-70 h-40 space-y-2 text-center bg-white">
+						<P class="bg-blue-900 w-7 rounded-full px-1 py-1 ml-30 mt-4">🛡</p>
+						<p class="font-bold text-yellow-600">INTERGRITY</p>
+						<p>We serve every guest with honesty, respect, and professionalism..</p>
+					</div>
+					
+					<div class="border-5 border-solid border-yellow-600 w-70 h-40 space-y-2 text-center bg-white">
+						<P class="bg-blue-900 w-7 rounded-full px-1 py-1 ml-30 mt-4">👪</p>
+						<p class="font-bold text-yellow-600">COMFORT</p>
+						<p>We create a relaxing environment where every guest feels at home.</p>
+					</div>
+					
+					<div class="border-5 border-solid border-yellow-600 w-70 h-42 space-y-2 text-center bg-white xl:mt-10 xl:ml-60">
+						<P class="bg-blue-900 w-7 rounded-full px-1 py-1 ml-30 mt-4">💡</p>
+						<p class="font-bold text-yellow-600 px-2">INNOVATION</p>
+						<p>We continuously improve our services to meet modern hospitality standards.</p>
+					</div>
+					
+					<div class="border-5 border-solid border-yellow-600 w-70 h-42 space-y-2 text-center bg-white xl:mt-10 xl:ml-60">
+						<P class="bg-blue-900 w-7 rounded-full px-1 py-1 ml-30 mt-4">🍂</p>
+						<p class="font-bold text-yellow-600">SUSTAINABILITY</p>
+						<p>We are committed to protecting the environment through responsible practices.</p>
+					</div>
+				</div>
+			</div>
+			</section>
+			<!---WHY CHOOSE AZURE CROWN HOTEL?--->
+			<section class="bg-yellow-600 rounded-4xl pb-20 mt-5 space-y-10 w-70 ml-10 md:w-150 md:ml-20 xl:w-200 xl:ml-70 ">
+				<div class="pt-20 ">
+					<div class="overflow-scroll bg-white h-50 w-68   mx-auto rounded-2xl md:h-50 md:w-150   md:mx-auto md:rounded-2xl xl:h-50 xl:w-150  xl:mx-auto xl:rounded-2xl">
+					<p class="text-2xl text-black font-bold text-center pt-5">WHY CHOOSE AZURE CROWN HOTEL?</p>
+					<ul class="text-base text-yellow-600 font-semibold pl-5 mt-5 md:text-xl md:pl-15 md:mt-5 xl:text-xl xl:pl-15 xl:mt-5"style="line-height:3.0">
+						<li>🏨 Luxury rooms and elegant suites</li>
+						<li>📍 Prime location with easy accessibility</li>
+						<li>🍽️ Fine dining restaurant serving international cuisine</li>
+						<li>💆‍♀️ Relaxing spa and wellness centre</li>
+						<li>🏊‍♂️ Infinity swimming pool</li>
+						<li>🏋️ Fully equipped fitness centre</li>
+						<li>🎉 Modern conference and banquet halls</li>
+						<li>📶 Complimentary high-speed Wi-Fi</li>
+						<li>🛎️ 24/7 room service and concierge support</li>
+						<li>🚗 Secure parking and airport transfer services</li>
+						<li>🌅 Beautiful city skyline and sea views</li>
+						<li>🛏️ Ultra-comfortable premium bedding experience</li>
+						<li>🧼 Daily housekeeping with high hygiene standards</li>
+						<li>🔐 Advanced security and CCTV surveillance</li>
+						<li>👨‍🍳 World-class chefs and curated gourmet menus</li>
+						<li>🥂 Luxury lounge and bar experience</li>
+						<li>🌿 Peaceful green garden relaxation areas</li>
+						<li>🧳 Travel assistance and tour booking support</li>
+						<li>👶 Family-friendly services and kids’ amenities</li>
+						<li>♿ Wheelchair accessible facilities</li>
+						<li>🎶 Live music and entertainment evenings</li>
+						<li>🧖‍♂️ Sauna, steam bath, and wellness therapies</li>
+						<li>📸 Instagram-worthy luxury interiors and décor</li>
+						<li>💼 Business-friendly workspaces and meeting support</li>
+						<p>✨ Personalized guest experience and VIP treatment</p>
+					</ul>
+					</div>
+			</section>
+			
+		<!--footer-->
+			<section class="bg-blue-900  md:h-50">
+			<div class="grid grid-cols-3 md:grid grid-cols-3 xl:grid grid-cols-3 pt-5">
+				<div class="ml-30 md:ml-5 xl:ml-20">
+					<p class="text-white font-bold text-xl md:text-2xl xl:text-4xl w-100">AZURE CROWN</p>
+					<p class="text-white font-bold text-2xl md:text-2xl xl:text-4xl ml-10 md:ml-15 xl:ml-20">HOTEL</p>
+					<p class="text-yellow-600 font-bold text-xl md:text-xl xl:text-3xl w-100">──── ✧ ❖ ✧ ────</p>
+					<p class="text-white font-bold text-lg md:ml-5 xl:ml-10 w-100 ">Where luxury meets</p>
+					<p class="text-white font-bold text-lg md:ml-5 xl:ml-10 w-100">timeless hospitality</p>
+				</div>
+				
+				<div class="text-white font-bold -ml-10 md:ml-0 xl:ml-15 mt-40 md:mt-0 xl:mt-0 w-100" style="line-height:3.0">
+					<p>📍 Chennai, Tamil Nadu, India</p>
+					<p>📞 +91 98765 43210</p>
+					<p>✉️ info@azurecrownhotel.com</p>
+				</div>
+				
+				<div class="text-yellow-600 font-bold text-4xl -ml-33 mt-70 md:mt-0 xl:mt-0 md:text-4xl md:ml-7 xl:text-7xl pt-10 w-100">
+					<p>ⓕ ◎ 𝕏 in</p>
+				</div>
+			</div>
+		
+		
+		<body>
+	</html>
