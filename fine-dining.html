@@ -1,0 +1,293 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>Fine Dining</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+		<!---fine-dining--->
+		<section>
+			<div class=" bg-yellow-100 pt-25 w-200 h-180 md:pt-25 md:w-195 md:h-180 xl:pt-25 xl:w-full xl:h-180">
+			
+				<div class="grid grid-rows-2 pt-10 md:grid grid-cols-2 md:pt-10 xl:grid grid-cols-2 xl:pt-10">
+				
+					<div class=" bg-black border-10 border-white pt-10 ml-20 h-130 w-120 md:pt-10 md:ml-10 md:h-130 md:w-120 xl:pt-10 xl:ml-50 xl:h-130 xl:w-full">
+						<p class="text-2xl font-bold text-yellow-500 pl-25 font-serif -ml-10 w-100 pt-3 md:text-4xl md:pl-17 md:w-150 md:pt-1 xl:text-4xl xl:pl-25 xl:pt-3">🥂 A Taste of Elegance</p>
+						<p class="text-white text-base pt-5 pl-60 font-bold font-mono pt-5 -ml-50  md:pt-5 md:pl-60 xl:pt-5 xl:pl-60 ">Where every dish tells a story.</p>
+						<p class="text-justify text-2xl font-semibold text-white w-80 pl-10 pt-10 md:w-82 md:pl-5 md:pt-10 xl:w-110 xl:pl-20 xl:pt-10">Experience refined dining where exquisite flavours, 
+							elegant surroundings, and exceptional service come together.</p>
+						<button class="text-xl font-bold text-pink-500 border-2 h-10 w-60 mt-10 ml-15  md:mt-20 md:ml-20 xl:mt-20 xl:ml-40 ">🍽️ Explore Our Menu</button>
+					</div>
+					
+					<div>
+						<img src="image\dining1.jpg" class="border-10 border-solid border-black rounded-full h-70 w-70 mt-30 md:h-80 md:w-80 md:ml-0 md:mt-20  xl:h-100 xl:w-100 xl:ml-10 xl:mt-15">
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!---The Art of Fine Dining--->
+		<section>
+			<div class="mt-5 pb-20">
+				<div>
+					<div class="w-200 md:w-195 xl:w-full">
+						<img src="image\fine-dinning.jpg" class=" h-150 md:h-150 xl:h-150 xl:ml-40 ">
+					</div>
+					<div class="h-50 w-60 ml-40 -mt-115 md:h-50 md:w-60 md:ml-40 md:-mt-115 xl:h-50 xl:w-50 xl:ml-140 xl:-mt-110">
+						<p class=" font-bold text-blue-900 text-2xl w-45 ml-35 md:text-2xl md:w-45 md:ml-35 xl:text-2xl xl:w-55 xl:ml-6">👨‍🍳 The Art of Fine Dining</p>
+						<p class="text-base font-semibold  text-black text-justify ml-36 w-40 pt-3 md:text-base md:ml-33 md:w-40 md:pt-3 xl:text-xl xl:ml-0 xl:w-60 xl:pt-5 px-2" style="line-height:1.5">“Our chefs transform the finest seasonal ingredients into 
+							exquisite creations, where every bite is a perfect blend of flavour, artistry, and unforgettable elegance.”</p>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---Fresh From the Finest--->
+		<section>
+			<div class="grid grid-cols-3 bg-black mt-50 h-210 w-200 md:h-210 md:w-195 xl:h-210 xl:w-full">
+				<div class="grid grid-rows gap-y-0  mt-10 ml-10 md:mt-10 md:ml-10  xl:mt-10 xl:ml-30">
+					<img src="image\veg.jpg" class="h-40 w-40 rounded-2xl rotate-20 border-5 border-green-600">
+					<img src="image\fish.jpg" class="h-40 w-40 rounded-2xl rotate-20 border-5 border-green-600">
+					<img src="image\cuts.jpg" class="h-40 w-40 rounded-2xl rotate-20 border-5 border-green-600">
+				</div>
+				
+				<div class="mt-40">
+					<p class="text-4xl font-bold text-green-500 border-5 border-solid border-green-500 w-70 pl-10 -mt-10 md:w-70 md:pl-10 md:-mt-10 xl:w-100 xl:pl-3 xl:-mt-10">Fresh From the Finest</p>
+					<p class="text-xl font-bold text-white text-black mt-10 w-120 ml-2 font-mono md:mt-10 md:w-120 md:ml-0 xl:mt-11 xl:w-120 xl:ml-2">We believe exceptional food begins with exceptional ingredients.</p>
+					<div class="xl:grid grid-cols-2 xl:grid-rows-3 text-white xl:mt-20 xl:gap-y-30 xl:gap-x-20 xl:h-50 xl:w-150 xl:-ml-15 md:mt-10 md:space-y-5 mt-10 space-y-5">
+						<p class="text-xl font-bold">🥬 Seasonal vegetables</p>
+						<p class="text-xl font-bold">🐟 Fresh seafood</p>
+						<p class="text-xl font-bold">🥩 Premium cuts</p>
+						<p class="text-xl font-bold">🌿 Hand-picked herbs</p>
+						<p class="text-xl font-bold">🍓 Fresh fruits</p>
+						<p class="text-xl font-bold">🧀 Artisan ingredients</p>
+					</div>
+				</div>
+				
+				<div>
+					<div class="grid grid-rows gap-y-25 mt-8 ml-20 md:mt-8 md:ml-15 xl:mt-10 xl:ml-30">
+						<img src="image\Hand-picked.jpg" class="h-40 w-40 rounded-2xl rotate-160 border-5 border-green-600">
+						<img src="image\fruits.jpg" class="h-40 w-40 rounded-2xl rotate-160 border-5 border-green-600">
+						<img src="image\artisan.jpg" class="h-40 w-40 rounded-2xl rotate-160 border-5 border-green-600">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---Chef's Signature--->
+		<section>
+			<div class="bg-white -mt-20">
+				<div class="pt-10">
+					<p class="text-4xl font-bold text-black border-5 w-110 pl-2 ml-40 md:w-110 md:pl-2 md:h-15 md:gap-y-2 md:ml-40 xl:w-110 xl:pl-2 xl:h-15 xl:gap-y-2 xl:ml-100">Crown Signature Platter</p>
+					<div class="grid grid-cols-2 mt-20">
+					
+						<div class="border-5 h-45 w-45 rounded-full  pt-13 ml-25 mt-5  md:ml-105 md:-mt-5 xl:ml-95 xl:-mt-5 ">
+							<p class="pl-19 ">🍲</p>
+							<p class="font-bold pl-8 pt-4">Chef's special</p>
+						</div>
+						
+						<div class="border-5 h-45 w-45 rounded-full  pt-13 ml-63 mt-5 md:-ml-40 md:-mt-5 xl:-ml-10 xl:-mt-5">
+							<p class="pl-19 ">🥗</p>
+							<p class="font-bold pl-5 pt-5">Garden-fresh salad</p>
+						</div>
+						
+						<div class="border-5 h-45 w-45 rounded-full  pt-15 ml-125 mt-5 md:ml-25 md:mt-5 xl:ml-70 xl:mt-5">
+							<p class="pl-19 ">🥩</p>
+							<p class="font-bold pl-6 pt-3">Signature grilled dish</p>
+						</div>
+						
+						<div class="border-5 h-45 w-45 rounded-full  pt-13 -ml-40 mt-5  md:ml-43 xl:ml-23 ">
+							<p class="pl-19 ">🍰</p>
+							<p class="font-bold pl-6 pt-5">Signature dessert</p>
+						</div>
+						
+					</div>
+					<img src="image\signature-food.jpg" class="h-70 w-70 -mt-40 ml-55 md:ml-70 md:-mt-40 rounded-full xl:ml-120 xl:-mt-30">
+				</div>
+			</div>
+		</section>
+		<!---Dinner Under the Stars--->
+		<section>
+			<div class="bg-black border-5 border-dotted border-white mt-5 h-90 w-200 md:h-90 md:w-195 xl:h-90 xl:w-full">
+				<div class="-ml-35 md:-ml-35 xl:ml-5">
+					<img src="image\dinner.jpg" class="h-40 w-40 ml-55 pt-1 rounded-full border-5 border-white">
+					<img src="image\mrg.jpg" class="h-40 w-40 ml-50 mt-0 rounded-full border-5  border-white">
+					<img src="image\drink.jpg" class="h-40 w-40  ml-89 -mt-55 rounded-full border-5  border-white">
+				</div>
+				<div class="border-5 border-dotted border-red-600 text-black bg-white h-80 w-150 ml-35 -mt-10 md:h-80 md:w-150 md:ml-30 md:-mt-10 xl:h-80 xl:w-150 xl:ml-80 xl:-mt-10">
+					<p class="text-4xl font-bold text-black pl-25 pt-10">An Evening to Remember</p>
+					<p class="text-xl font-bold text-red-500 pl-40 w-100 text-justify pt-10">Enjoy an intimate dining experience beneath the evening sky, surrounded by soft lights and a peaceful atmosphere.</p>
+				</div>
+			</div>
+		</section>
+		<!---Reserve Your Table--->
+			<section>
+				<div class="mt-50">
+					<div  class="bg-[url('image/Reserve.jpg')] bg-no-repeat bg-cover bg-center h-80 w-200 md:h-80 md:w-195 xl:h-80 xl:w-full">
+					<p class="text-4xl font-bold ml-60 pt-10  md:ml-60 md:pt-10 xl:ml-120 xl:pt-10">Your Table Awaits</p>
+					<p class="text-xl font-bold ml-10 pt-10 md:ml-20 md:pt-10 md:w-150 xl:ml-20 xl:pt-10 xl:w-300">From a romantic dinner to a memorable celebration, make your 
+						next dining experience extraordinary at Azure Crown Hotel.</p>
+					<div class="grid grid-cols-2 ml-30 mt-20 md:ml-30 md:mt-20 xl:ml-50 xl:mt-20">
+						<button class="border-5 border-black bg-purple-300 font-bold text-white h-15 w-50">Reserve a Table</button>
+						<button class="border-5 border-black font-bold h-15 w-50">View Menu</button>
+					</div>
+				</div>
+			</section>	
+			<!---footer--->
+				<section>
+					<div class="mt-2 w-200 md:w-195 xl:w-full">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html>
