@@ -1,0 +1,319 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>GUEST STRORIES</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+			<!---Stories From Our Guests--->
+			<section>
+				<div class="h-190 w-250 bg-yellow-100 mb-20 md:h-190 md:w-full md:bg-yellow-100 md:mb-20 xl:h-190 xl:w-full xl:bg-yellow-100 xl:mb-20">
+				
+					<div class="pt-30 md:pt-30 xl:pt-30">
+						<img src="image\guest-stores.jpg" class="h-150 w-230 ml-10 rounded-4xl md:h-150 md:w-180 md:ml-5 md:rounded-4xl xl:h-150 xl:w-200 xl:ml-70 xl:rounded-4xl ">
+						<p class="-mt-110 ml-60 text-4xl font-bold md:-mt-110 md:ml-40 xl:-mt-110 xl:ml-110">💖 Stories From Our Guests</p>
+						<p class="mt-10 w-150 ml-50 text-2xl font-bold text-pink-500 text-justify md:mt-10 md:w-140 md:ml-25 xl:mt-10 xl:w-150 xl:ml-100">At Azure Crown Hotel, every stay is more 
+							than a visit — it is a collection of beautiful moments. From warm welcomes and peaceful 
+							rooms to exceptional dining and personalized service, our guests leave with memories worth sharing.</p>
+					</div>	
+					
+				</div>
+			</section>
+			<!---Our Guest Rating--->
+			<section>
+				<div class="bg-pink-200 w-230 h-150 -mt-15 rounded-4xl mx-10 md:mx-0 mb-20 md:w-full md:h-130 xl:mx-0 xl:w-full xl:h-90">
+					<div class="border-5 border-solid border-black h-20 w-full text-center py-2 bg-black">
+						<p class="text-4xl text-white font-bold">Loved by Our Guests</p>
+					</div>
+					
+					<div class=" mt-15 ml-70 md:grid grid-cols-3 md:mt-20 md:ml-3 xl:grid grid-cols-3 xl:mt-20 xl:ml-30">
+					
+						<div class="border-5 border-dotted border-yellow-200 rounded-xl bg-white h-30 w-70 mt-5 md:h-30 md:w-70 xl:h-30 xl:w-70">
+							<p class="text-2xl pl-3 pt-3 text-purple-500 font-semibold ">4.9 / 5 ⭐⭐⭐⭐⭐</p>
+							<p class="text-xl text-purple-500 font-semibold  pt-3 pl-3">Based on guest experiences</p>
+						</div>
+						<div class="border-5 border-dotted border-yellow-200 rounded-xl bg-white h-30 w-70 mt-5 md:h-30 md:w-70 md:mt-40 xl:mt-5 xl:h-30 xl:w-70">
+							<p  class="text-2xl pl-20 pt-3 text-purple-500 font-semibold">10,000+ ❤️</p>
+							<p class="text-xl text-purple-500 font-semibold  pt-5 pl-20">Happy Guests</p>
+						</div>
+						<div class="border-5 border-dotted border-yellow-200 rounded-xl bg-white h-30 w-70 mt-5 md:h-30 md:w-70 md:-ml-10 xl:ml-0 xl:h-30 xl:w-70">
+							<p class="text-2xl pl-20 pt-3 text-purple-500 font-semibold">98% 🌟</p>
+							<p class="text-xl text-purple-500 font-semibold  pt-3 pl-10">Would Recommend Us</p>
+						</div>
+					
+					</div>
+				</div>
+			</section>
+			<!---Luxury-Family-Business-Dining--->
+			<section>
+				<div class="bg-[url('image/rating1.jpg')] bg-no-repeat bg-cover bg-center  w-250 h-250 -mt-15 pt-90 pl-30 md:w-full md:h-250 md:-mt-15 md:pt-90 md:pl-30  xl:w-full xl:h-250 xl:-mt-15 xl:pt-90 pl-30">
+				
+					<div class="border-3 border-solid border-green-600 rounded-xl bg-white w-70 h-80 px-3 ml-80 mt-50 md:w-70 md:h-80 md:px-3 md:-ml-10 md:mt-45 xl:w-70 xl:h-80 xl:px-3 xl:ml-110 xl:mt-45">
+						<div class="border border-solid rounded-full w-15 h-15 mt-5">
+							<img src="image\rating-pic.jpg" class="h-15 w-15">
+						</div>
+						<div class="pt-0 pl-30 -mt-15 ">
+							<p class="text-justify text-xl text-green-600 font-bold">Priya S</p>
+							<p class="pt-3">⭐⭐⭐⭐⭐</p>
+						</div>
+						<div class="pt-3">
+							<p class="text-justify text-xl">“The room was beautiful, the atmosphere was peaceful,
+								and the staff made us feel incredibly special. Everything 
+								was perfect from check-in to check-out.”</p>
+						</div>
+					</div>
+				
+					<div class="border-3 border-solid border-green-600 rounded-xl bg-white w-70 h-75 px-3 -mt-75 md:w-70 md:h-75 md:px-3 md:-mt-75 md:ml-70  xl:w-70 xl:h-75 xl:px-3 xl:-mt-115 xl:ml-190">
+						<div class="border border-solid rounded-full w-15 h-15 mt-5">
+							<img src="image\rating-pic.jpg" class="h-15 w-15">
+						</div>
+						<div class="pt-0 pl-30 -mt-15 ">
+							<p class="text-justify text-xl text-green-600 font-bold">Chotta</p>
+							<p class="pt-3">⭐⭐⭐⭐⭐</p>
+						</div>
+						<div class="pt-5">
+							<p class="text-justify text-xl">“The rooms were spacious, the food was excellent, 
+										and there were so many things for our family to enjoy. We had a wonderful stay.”</p>
+						</div>
+					</div>
+					
+					<div class="border-3 border-solid border-green-600 rounded-xl bg-white w-70 h-75 px-3 -mt-170 ml-80 md:w-70 md:h-75 md:px-3 md:-mt-170 md:-ml-15 xl:w-70 xl:h-75 xl:px-3 xl:-mt-70 xl:ml-30">
+						<div class="border border-solid rounded-full w-15 h-15 mt-5">
+							<img src="image\rating-pic.jpg" class="h-15 w-15">
+						</div>
+						<div class="pt-0 pl-30 -mt-15 ">
+							<p class="text-justify text-xl text-green-600 font-bold">Dora</p>
+							<p class="pt-3">⭐⭐⭐⭐⭐</p>
+						</div>
+						<div class="pt-5">
+							<p class="text-justify text-xl">“The room was comfortable and the workspace was perfect for my business trip. 
+										The service was professional and very efficient.”</p>
+						</div>
+					</div>
+					
+					<div class="border-3 border-solid border-green-600 rounded-xl bg-white w-70 h-70 px-3 -mt-70 md:4-70 md:h-75 md:px-3 md:-mt-75 md:ml-70  xl:w-70 xl:h-75 xl:px-3 xl:-mt-135 xl:ml-110">
+						<div class="border border-solid rounded-full w-15 h-15 mt-5">
+							<img src="image\rating-pic.jpg" class="h-15 w-15">
+						</div>
+						<div class="pt-0 pl-30 -mt-15 ">
+							<p class="text-justify text-xl text-green-600 font-bold">Shan</p>
+							<p class="pt-3">⭐⭐⭐⭐⭐</p>
+						</div>
+						<div class="pt-5">
+							<p class="text-justify text-xl">“The restaurant was beautiful and every dish was delicious.
+							The staff were attentive without being intrusive. Definitely one of the highlights of our stay.”</p>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!---Guest Memory Wall--->
+			<section>
+				<div class="bg-yellow-100 mt-5 h-200 w-250 md:mt-5 md:h-200 md:w-full xl:mt-5 xl:h-200 xl:w-full">
+					<div class="border-5 border-solid border-black h-20 w-full text-center py-2 bg-black">
+						<p class="text-4xl font-bold text-white">🌟 Guest Memory Wall</p>
+					</div>
+					<div class="grid grid-cols-2 grid-rows-3 pt-10 ml-40 md:pt-10 md:ml-30 xl:pt-10 xl:ml-70">
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-10">❤️ “Beautiful atmosphere.”</p>
+						</div>
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-10">⭐ “Amazing hospitality.”</p>
+						</div>
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-5">🥂 “Perfect weekend escape.”</p>
+						</div>
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-3">🏨 “The rooms were outstanding.”</p>
+						</div>
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-3">🍽️ “Wonderful dining experience.”</p>
+						</div>
+						<div class="border-2 border-solid border-pink-400 bg-pink-200 h-50 w-50 rounded-full">
+							<p class="text-xl font-bold pt-15 pl-5">💎 “Luxury at its best.”</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---Your Story Starts Here--->
+			<section>
+				<div class="mt-5 bg-black border-1 border-dotted border-white h-80 w-250 md:h-55 md:w-full xl:h-85 xl:w-full">
+					<div class="pt-5">
+						<img src="image\writing.jpg" class="h-160 w-160 border-10 border-solid border-white rounded-full ml-45 md:h-100 md:w-100 md:ml-45 xl:ml-85 xl:h-150 xl:w-150">
+						<p class="text-white font-bold text-2xl -mt-130 ml-75 md:text-xl md:-mt-75  md:ml-55 xl:text-3xl xl:-mt-110 xl:ml-100">Ready to Create Your Own Story?</p>
+						<Button class="bg-yellow-800 border-3 boder-solid border-yellow-800 font-bold text-white rounded-2xl text-2xl ml-95 mt-10 md:ml-65 md:mt-10 md:h-15 md:w-60  xl:ml-130 xl:mt-10 xl:h-15 xl:w-60">🛎️ Book Your Stay</Button>
+					</div>
+				</div>
+			</section>
+			<!--- Guest Memories--->
+			<section>
+				<div class="mt-100 pb-30 md:mt-55 md:pb-30 xl:mt-75 xl:pb-30">
+					<div class=" w-250 md:w-full xl:w-full">
+						<img src="image\film-pic1.jpg" class=" h-50 w-250 md:w-250 md:h-100 xl:w-full xl:h-100">
+						<div class="grid grid-cols-3 -mt-45 md:-mt-89 xl:-mt-89">
+							<img src="image\film1.jpg" class=" h-40 w-75 ml-10 md:h-78 md:w-97 md:ml-8 xl:h-78 xl:w-97 xl:ml-15">
+							<img src="image\film2.jpg" class="h-40 w-75 ml-10  md:h-78 md:w-97 md:ml-8 xl:h-78 xl:w-97 xl:ml-8">
+							<img src="image\film3.jpg" class="h-40 w-65 ml-5  md:h-78 md:w-80 md:-ml-1 xl:h-78 xl:w-97 xl:ml-1">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---footer--->
+				<section>
+					<div class="-mt-20 w-250 md:w-full xl:w-full">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html> 
