@@ -1,0 +1,390 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>HELP CENTER</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+
+			<!---HELP CENTRE--->
+			<section>
+				<div class="bg-blue-900 border-10 border-yellow-600 h-150 w-200 md:h-150 md:w-full xl:h-150 xl:w-full pt-30">
+					<div class="text-center">
+						<p class="font-bold text-6xl ">👑</p>
+						<p class="font-bold text-4xl pt-5 text-yellow-600">AZURE CROWN</p>
+						<p class="font-bold text-xl pt-2 text-yellow-600">─────HOTEL─────</p>
+						<p class="text-white text-8xl font-bold pt-3">HELP CENTRE</p>
+						<p class="text-lg pt-5 font-bold text-yellow-600">Everything you need,all one place.</p>
+					</div>
+					
+					<div class=" ml-45 md:ml-45 xl:ml-125 mt-10">
+						<p class="border-3 h-15 w-100 rounded-4xl bg-white p-3 font-bold">🔍 Search your question...</p>
+					</div>
+				</div>
+			</section>
+			
+			<!---stay,dining,wellness,events--->
+			<section>
+				<div class="grid grid-cols-3 mt-5  w-200 h-200 md:w-full md:h-200 xl:w-full xl:h-200">
+					
+					<div class="grid grid-rows-2 md:ml-1 xl:ml-30">
+					
+						<div class="bg-black  h-90 w-60 rounded-4xl">
+							<p class="text-yellow-600 font-bold text-2xl text-center pt-5">STAY</p>
+							<div class="text-center text-white font-bold pt-3">
+								<p>Everything you need to</p>
+								<p>know about your room and</p>
+								<p>hotel stay</p>
+							</div>
+							
+							<div class="font-bold text text-yellow-600 pt-3 ml-3" style="line-height:2.5">
+								<ul>
+									<li>🏨 Check-in & Check-out</li>
+									<li>🗝️ Room Access</li>
+									<li>🧹 Housekeeping</li>
+									<li>🛎️ Guest Services</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="bg-black  h-80 w-60 mt-10 rounded-4xl">
+							<p class="text-yellow-600 font-bold text-2xl text-center pt-5">WELNESS</p>
+							<div class="text-center text-white font-bold pt-3">
+								<p>Discover information about</p>
+								<p>our wellness facilities.</p>
+							</div>
+							
+							<div class="font-bold text text-yellow-600 pt-3 ml-3" style="line-height:2.5">
+								<ul>
+									<li>🌿 Spa Services</li>
+									<li>💆 Treatments</li>
+									<li>🏊 Pool Access</li>
+									<li>💪 Fitness Centre</li>
+								</ul>
+							</div>
+						</div>
+					
+					</div>
+					
+					<img src="image\hotel-moments.jpg" class="h-170 w-140 mt-5 md:-ml-1 xl:-ml-3 rounded-xl">
+					
+					<div class="grid grid-rows-2 ml-3 md:ml-3 xl:ml-20">
+					
+						<div class="bg-black  h-90 w-60 rounded-4xl">
+							<p class="text-yellow-600 font-bold text-2xl text-center pt-5">DINING</p>
+							<div class="text-center text-white font-bold pt-3">
+								<p>Questions about restaurants,</p>
+								<p>menus, and dining services?</p>
+							</div>
+							
+							<div class="font-bold text text-yellow-600 pt-3 ml-3" style="line-height:2.5">
+								<ul>
+									<li>🍴 Restaurant Hours</li>
+									<li>🥂 Reservations</li>
+									<li>🛎️ In-Room Dining</li>
+									<li>🌿 Special Dietary Requests</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="bg-black  h-80 w-60 mt-10 rounded-4xl">
+							<p class="text-yellow-600 font-bold text-2xl text-center pt-5">EVENTS</p>
+							<div class="text-center text-white font-bold pt-3">
+								<p>Planning something special?</p>
+								<p>Our events team is ready</p>
+								<p>to assist.</p>
+							</div>
+							
+							<div class="font-bold text text-yellow-600 pt-3 ml-3" style="line-height:2.5">
+								<ul>
+									<li>💍 Weddings</li>
+									<li>🎊 Celebrations</li>
+									<li>💼 Corporate Events</li>
+									<li>🏛️ Ballroom Bookings</li>
+								</ul>
+							</div>
+						</div>
+					
+					</div>
+					
+				</div>
+			</section>
+			
+			<!---Payments & Booking--->
+			<section>
+				<div class="bg-blue-900 -mt-10 h-140 w-200 md:h-140 md:w-full xl:h-140 xl:w-full xl:rounded-full md:rounded-4xl">
+					<div class="bg-yellow-600 h-140 w-100 mt-10 md:ml-50 ml-50 xl:ml-110">
+						<div class="text-center font-bold">
+							<p class="text-6xl">💳 </p>
+							<p class="text-4xl">PAYMENTS</p>
+							<p class="text-4xl">& BOOKING</p>
+						</div>
+						
+						<div class="mt-5 text-white text-2xl font-bold ml-20"style="line-height:3.0">
+							<p>💳 Payment Methods</p>
+							<p>📅 Booking Changes</p>
+							<p>❌ Cancellation Policy</p>
+							<p>🧾 Billing Information</p>
+						</div>
+						
+						<img src="image\bar-code.jpg" class="ml-6">
+					</div>
+					<div class="grid grid-cols-2 grid-rows-2 ml-80  md:ml-80 xl:ml-80 -mt-50">
+						<img src="image\visa.jpg" class="-mt-60 -ml-60 md:-ml-60 xl:-ml-30 rounded-xl">	
+						<img src="image\pay.jpg" class="-mt-60 ml-30 md:ml-30 xl:ml-40 rounded-xl">
+						<img src="image\paypal.jpg" class="-mt-10 -ml-60 md:-ml-60 xl:-ml-30 rounded-xl">
+						<img src="image\discover.jpg" class="-mt-5 ml-30 md:ml-30 xl:ml-40 rounded-xl">
+					</div>
+				</div>
+			</section>
+			
+			<!---❓ Frequently Asked Questions--->
+			<section>
+				<div class="bg-blue-900 h-150 w-200 md:h-150 md:w-full xl:h-150 xl:w-full pt-20 mt-5">
+					
+					<div class="font-bold -mt-5 border-5 border-white h-15 p-2 ml-45 md:ml-45 xl:ml-120 w-100 text-2xl text-yellow-600">
+						<p>❓ Frequently Asked Questions</p>
+					</div>
+				
+						<div class="grid grid-cols-2 h-20 w-150 p-3 mt-10 ml-20 md:ml-20 xl:ml-90 bg-white border-5 border-yellow-600 font-bold  ">
+							<div>
+								<p>Q: What time is check-in?</p>
+								<p>A: From 2:00 PM.</p>
+							</div>
+							
+							<div class="ml-50 text-4xl font-bold">
+								<p>˅</p>
+							</div>
+						</div>
+						
+						<div class="grid grid-cols-2 h-20 w-150 p-3 ml-20 md:ml-20 xl:ml-90 mt-5 bg-white border-5 border-yellow-600 font-bold ">
+							<div>
+								<p>Q: What time is check-out?</p>
+								<p>A: Until 12:00 PM.</p>
+							</div>
+							
+							<div class="ml-50 text-4xl font-bold">
+								<p>˅</p>
+							</div>
+						</div>
+						
+						<div class="grid grid-cols-2 h-20 w-150 p-0 ml-20 md:ml-20 xl:ml-90 mt-5 bg-white border-5 border-yellow-600 font-bold ">
+							<div>
+								<p>Q: Is Wi-Fi available?</p>
+								<p>A: Yes, complimentary Wi-Fi is available.</p>
+							</div>
+							
+							<div class="ml-50 text-4xl font-bold">
+								<p>˅</p>
+							</div>
+						</div>
+						
+						<div class="grid grid-cols-2 h-20 w-150 p-3 ml-20 md:ml-20 xl:ml-90 mt-5 bg-white border-5 border-yellow-600 font-bold ">
+							<div>
+								<p>Q: Can I request an early check-in?</p>
+								<p>A: Subject to availability.</p>
+							</div>
+							
+							<div class="ml-50 text-4xl font-bold">
+								<p>˅</p>
+							</div>
+						</div>
+				</div>
+			</section>
+			
+			<!---Still Need Help?--->
+			<section>
+				<div class="bg-blue-900 h-100 w-200 md:h-100 md:w-full xl:h-100 xl:w-full mt-5 pt-10 border-5 border-dotted border-white">
+					<div class="text-center font-bold">
+						<p class="text-4xl text-yellow-600">💬 Still Need Help?</p>
+						<p class="text-lg text-white pt-5">Our guest assistance team is just a message away.</p>
+					</div>
+					
+					<div class="grid grid-cols-4 mt-20 ml-5 md:ml-5 xl:ml-30">
+					
+						<div class="h-40 w-40 rounded-full border-5 border-white text-center p-6">
+							<p class="text-4xl">💬</p>
+							<p class="text-xl text-yellow-600 font-bold pt-1">Live Chat</p>
+						</div>
+						
+						<div class="h-40 w-40 rounded-full border-5 border-white text-center p-6">
+							<p class="text-4xl">📞</p>
+							<p class="text-xl text-yellow-600 font-bold pt-2">Call Us</p>
+						</div>
+						
+						<div class="h-40 w-40 rounded-full border-5 border-white text-center p-6">
+							<p class="text-4xl">✉️</p>
+							<p class="text-xl text-yellow-600 font-bold pt-2">Email Us</p>
+						</div>
+						
+						<div class="h-40 w-40 rounded-full border-5 border-white text-center p-6">
+							<p class="text-4xl">🛎️</p>
+							<p class="text-xl text-yellow-600 font-bold pt-2">Visit Concierge</p>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			
+			<section class="w-200 md:w-full">
+					<img src="image\door.jpg" class="h-120 w-200  md:h-120  xl:h-120 xl:w-full mb-20 mt-5">
+			</section>
+			<!---footer--->
+				<section>
+					<div class=" -mt-18 md:-mt-18 xl:-mt-18 w-200 md:w-full xl:w-full">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html>
