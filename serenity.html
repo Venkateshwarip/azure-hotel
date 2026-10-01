@@ -1,0 +1,268 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>Serenity</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+			<!---A Sanctuary of Serenity--->
+			<section>
+				<div class="pt-19 w-250 md:w-full md:pl-7 xl:pl-0 xl:w-full">
+					<img src="image\banner-hotel1.jpg" class="xl:h-100 xl:w-full md:h-100">
+				</div>
+			</section>
+			
+			<!---The Serenity Philosophy--->
+			<section>
+				<div class="grid grid-rows-2 w-250 bg-green-100 mt-5 pb-0 md:grid grid-rows-2 md:w-full md:mt-5 md:pb-10 md:bg-green-100 xl:flex flex-rows-2 xl:w-full xl:mt-5 xl:bg-green-100">
+					<img src="image\water-fall.jpg" class="h-120 w-230 pl-20 pt-5  md:h-100 md:w-150 md:pl-30 xl:h-100 xl:w-140 xl:pl-20">
+					<div class="grid gird-rows-2 md:grid gird-rows-2">
+						<p class="pl-100 mt-10 text-yellow-600 text-xl font-bold md:pl-50 md:pt-10 md:text-2xl md:mt-3 xl:pl-50 xl:pt-10 xl:mt-3">The Serenity<br> <span class="text-xl font-bold text-black md:text-4xl">Philosophy</span></p>
+						<p class="pl-50 -mt-35 w-190 text-justify  md:pl-20 md:-mt-25 md:w-170 xl:pl-20 xl:-mt-25 xl:w-150" style="line-height:2.0">We believe true wellness begins with balance.
+						Every experience is thoughtfully designed to help you slow down, reconnect, and rediscover your inner calm..</p>
+					</div>
+					<div class="grid grid-cols-3 -mt-15 gap-x-5 md:grid grid-cols-3 md:-mt-60 md:gap-x-5 xl:grid grid-cols-3 xl:mt-40 xl:gap-x-5">
+						<button class="font-bold border-5 border-green-600 h-10 w-40 -mt-30 ml-25 md:mt-30 md:ml-20 xl:mt-40 xl:-ml-120 ">🌿 Mindful</button>
+						<button class="font-bold border-5 border-green-600 h-10 w-40 -mt-30 ml-25 md:mt-30 md:ml-5 xl:mt-40 xl:-ml-80">💧 Restorative</button>
+						<button class="font-bold border-5 border-green-600 h-10 w-40 -mt-30 ml-25 md:mt-30 md:-ml-10  xl:mt-40 xl:-ml-40">✨ Personalised</button>
+					</div>
+				</div>
+			</section>
+			
+			<!---Signature Treatments--->
+			<section>
+			<div class="w-250 mt-5 h-100 bg-green-100 rounded-xl md:rounded-4xl md:h-100 md:w-190 md:mt-5 xl:rounded-4xl xl:mt-5 xl:h-100 xl:w-full xl:pt-5">
+				<div class="grid grid-rows-3">
+					<div class="grid grid-cols-2 border-3 border-black md:w-100 mt-5 h-20 p-5 xl:p-1 md:p-1 md:h-20 md:pl-5 md:ml-45 md:mt-5  xl:w-130 xl:h-20 xl:pl-5 xl:ml-95 xl:mt-5">
+						<p class="font-bold text-xl md:pt-2 xl:pt-5">Royal Crown Massage</p>
+						<p>A deeply relaxing full-body massage designed to release tension.</p>
+					</div>
+					<div class="grid grid-cols-2 border-3 border-black mt-10 h-20 p-3 md:w-140 md:h-20 md:pt-3 md:ml-25 md:mt-10  xl:w-160 xl:h-20 xl:p-5 xl:ml-85 xl:mt-10">
+						<p class="font-bold text-xl pl-1">Azure Aromatherapy</p>
+						<p>Essential oils and gentle techniques create a calming sensory experience.</p>
+					</div>
+					<div class="grid grid-cols-2 border-3 border-black mt-10 h-20 p-5 md:w-170 md:h-20 md:p-5 md:mt-10 md:ml-10  xl:w-190 xl:h-20 xl:p-5 xl:mt-10 xl:ml-70">
+						<p class="font-bold text-xl">Deep Restore Ritual</p>
+						<p>A complete body treatment focused on relaxation and renewal.</p>
+					</div>
+				</div>
+			</div>
+			</section>
+			<!--- Wellness Rituals--->
+			<section>
+			<div class="bg-green-100 mt-5 w-250 h-240 md:mt-5 md:w-full md:h-200 xl:mt-5 xl:w-full xl:h-200">
+				<div class=" pt-10">
+					<div class="border-5 border-green-600 h-15 w-150 ml-40 md:ml-20 xl:ml-100">
+						<p class="text-4xl font-bold pl-35 pt-1">Wellness Rituals</p>
+					</div>
+					<div class="md:border-10 border-green-600 md:h-100 md:w-100 md:rounded-full md:mt-60 md:ml-40 xl:border-10 border-green-600  xl:ml-120 xl:h-100 xl:w-100 xl:rounded-full xl:mt-60">
+					</div>
+						<div class="border-5 border-black bg-black text-white h-60 w-50 rounded-full mt-10 ml-100 pt-10 md:pt-10 md:-mt-70 md:ml-30 xl:pt-10 xl:-mt-70 xl:ml-100">
+							<p class="font-bold ml-15">Meditate</p>
+							<p class="text-base ml-7 pt-5 ">Begin your day with peaceful guided meditation.</p>
+						</div>
+						<div class="border-5 border-black bg-black text-white h-60 w-50 rounded-full mt-10 ml-100 pt-10 md:pt-10 md:-mt-65 md:ml-100  xl:pt-10 xl:-mt-65 xl:ml-200">
+							<p class="font-bold ml-10">Aromatherapy</p>
+							<p class="text-base ml-7 pt-5 ">Relax with carefully selected natural essential oils.</p>
+						</div>
+						<div class="border-5 border-black bg-black text-white h-60 w-50 rounded-full mt-10 ml-100 pt-10 md:pt-10 md:-mt-120 md:ml-60 xl:pt-10 xl:-mt-120 xl:ml-140">
+							<p class="font-bold ml-15">Stretch</p>
+							<p class="text-base ml-7 pt-5 ">Gentle movements to improve flexibility and release tension.</p>
+						</div>
+				</div>
+			</section>
+			
+			<!---Tea & Tranquility--->
+			<section>
+			<div class="grid grid-rows-2 mt-5 bg-yellow-800 border-7 border-dotted border-white h-270 w-250 md:flex flex-rows-2 md:h-150 md:w-full xl:flex flex-rows-2 xl:h-150 xl:w-full">
+				<div class="mt-20 ml-45  md:-ml-20 xl:ml-5">
+					<div class="border-2 border-white h-15 w-100 pl-5 pt-1 ml-30">
+						<p class="text-4xl font-bold text-white">🍵 Tea & Tranquility</p>
+					</div>
+					<div>
+						<p class="text-2xl text-white w-160 ml-10  md:ml-30  xl:ml-30 mt-10 md:w-130 xl:w-130" style="line-height:2.0">Complete your treatment with a carefully selected herbal
+							tea served in our peaceful relaxation lounge.</p>
+					</div>
+					<div class="mt-10 ml-40">
+						<ul class="list-disc font-bold text-white" style="line-height:3.0">
+							<li>🌿 Chamomile Calm</li>
+							<li>🍃 Green Tea Refresh</li>
+							<li>🌸 Jasmine Harmony</li>
+							<li>🫚 Ginger Vitality</li>
+						</ul>
+					</div>
+				</div>
+				<div class="ml-70 w-150  md:ml-0  xl:ml-0">
+					<img src="image\tea.jpg" class=" h-115 md:h-145  md:-ml-15 md:mt-0 xl:ml-10 xl:h-145 xl:w-full">
+				</div>
+			</div>
+			</section>
+			<!---Couples' Retreat--->
+			<section>
+				<div class="mt-5 bg-black border-1 border-dotted border-blue-500 h-80 w-250 md:h-55 md:w-full xl:h-85 xl:w-full">
+					<div class="pt-5">
+						<img src="image\Couples' Retreat.jpg" class="h-160 w-160 border-10 border-solid border-white rounded-full ml-45 md:h-100 md:w-100 md:ml-45 xl:ml-85 xl:h-150 xl:w-150">
+						<p class="text-red-500 font-bold text-xl -mt-130 ml-90 w-75 md:text-xl md:-mt-80 md:w-75 md:ml-60 xl:text-xl xl:-mt-130 xl:ml-113 xl:w-100">💑Share a peaceful escape together❤️ with a private wellness🥂 experience created for two.💍</p>
+						<button class="bg-blue-500 border-3 boder-solid border-blue-800 font-bold text-white rounded-2xl text-2xl ml-95 mt-60 md:ml-65 md:mt-23 md:h-15 md:w-60  xl:ml-130 xl:mt-10 xl:h-15 xl:w-60">🌙 Couples' Retreat </button>
+					</div>
+				</div>
+			</section>
+			<!---footer--->
+				<section>
+					<div class=" mt-85 md:mt-50 xl:mt-70 w-250 md:w-195 xl:w-full">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html>
