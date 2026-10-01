@@ -1,0 +1,324 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title> OUR-STORY</title>
+	</head>
+	<body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+		  <!---OUR STORY--->
+			<section>
+				<div class=" h-full w-153 pt-0 relative overflow-hidden md:w-full md:h-full md:relative md:overflow-hidden xl:w-full xl:h-full xl:relative overflow-hidden">
+					<img src="image\hotel-image.jpg" class="w-300 h-1/2 pt-25  object-cover md:w-full md:h-150 md:object-fit xl:w-full xl:h-140 xl:object-cover">
+					<h2 class="absolute inset-0 flex items-center ml-50 bg-white/10 text-yellow-300 text-4xl font-bold -mt-40 h-3/4 md:flex items-center md:ml-70 md:bg-white/10 md:text-yellow-300 md:text-4xl md:font-bold md:-mt-30 md:h-3/4 xl:flex items-center xl:ml-160 xl:bg-white/10 xl:text-yellow-300 xl:text-4xl xl:font-bold xl:-mt-20 xl:h-3/4">OUR STORY</h2>
+					<p class="xl:-mt-80 xl:text-white xl:ml-180 xl:text-2xl xl:font-semibold md:-mt-70 md:text-white md:ml-80 md:font-semibold md:text-2xl -mt-55 text-white ml-50 font-semibold text-2xl">A Journey of Elegance & Hospitality</p>
+					<p class="xl:mt-10 xl:text-white xl:ml-180 xl:text-2xl xl:w-100 xl:text-justify xl:font-semibold md:mt-15 md:text-white md:ml-80 md:text-2xl md:w-100 md:text-justify md:font-semibold mt-5 text-white ml-50 text-xl w-80 text-justify font-semibold ">Discover the journey of Azure Crown Hotel — from a simple vision to a destination of luxury, warmth, and unforgettable experiences.</p>
+				</div>
+			</section>
+		  <!---WHERE IT ALL BEGIN--->
+			<section>
+				<div class="bg-blue-900 -mt-100 pt-20 pb-20 mb-20 h-250 w-153 md:-mt-100 md:pt-10 md:h-150 md:w-full xl:-mt-15 xl:pt-10 xl:h-150 xl:w-full">
+				
+					<div class="border-5 border-solid border-yellow-600 rounded-full bg-white h-50 w-50 ml-45 pt-5  md:h-50 md:w-50 md:ml-70 md:pt-5  xl:h-50 xl:w-50 xl:ml-145 xl:pt-5 ">
+						<p class=" pt-5 pl-20 ">🏛️</p>
+						<p class=" h-50 w-55 pt-7 px-5 text-justify font-bold">WHERE IT ALL BEGIN</p>
+					</div>
+					
+					<div class="grid grid-rows-2 mx-15 gap-3 md:grid grid-cols-2 md:mx-5 md:gap-3 xl:grid grid-cols-2 xl:mx-70 xl:gap-30">
+					
+						<div class="border-5 border-solid border-yellow-600 rounded-full h-72 w-70 ml-20 bg-white">
+							<p class=" h-50 w-55 pt-17 pl-12 text-justify font-semibold">Azure Crown Hotel began with a simple dream — to create 
+							a place where every guest feels welcomed, valued, and completely at home.</p>
+						</div>
+						
+						<div class="border-5 border-solid border-yellow-600 rounded-full h-72 w-70 bg-white mt-72 -ml-40 md:mt-0 md:-ml-0 xl:mt-0 xls:-ml-0">
+							<p class="h-50 w-53  pt-14 pl-15 text-justify font-semibold">With passion, dedication, and attention to detail, our journey 
+							began with a commitment to delivering a new standard of luxury hospitality.</p>
+						</div>
+						
+					</div>
+					
+				</div>
+			</section>
+		   <!---Our Journey Through Time--->
+			<section>
+				<div class="bg-black pt-10 pb-10 -mt-15 h-330 w-153 md:bg-black md:pt-10 md:pb-10 md:-mt-15 md:h-220 md:w-full  xl:bg-black xl:pt-10 xl:-mt-15 xl:pb-10 xl:w-full ">
+					<div class="border-5 border-solid border-yellow-600 bg-white text-black w-90 py-0 ml-30  md:w-150 md:py-3 md:ml-20 xl:w-150 xl:py-3 xl:ml-100">
+						<p class="text-4xl font-bold px-5">🕰️ Our Journey Through Time</p>
+					</div>
+					
+					<div class="grid grid-rows-5 mt-30 space-x-20 md:grid grid-cols-5 md:mt-30 md:space-x-20 xl:grid grid-cols-5 xl:mt-30 xl:space-x-20">
+					
+						<div class="border-5 border-solid border-yellow-600 bg-white text-black h-40 w-70 ml-40 -mt-15 md:h-40 md:w-70 md:ml-10 md:-mt-15 xl:h-40 xl:w-70 xl:ml-10 xl:-mt-15">
+							<p class="text-2xl font-bold ">💡 2018 — The Vision</p>
+							<p class="font-semibold pt-5 text-justify px-3">The idea for Azure Crown Hotel was born.</p>
+						</div>
+			
+						<div class="border-5 border-solid border-yellow-600 bg-white text-black h-40 w-70 ml-10 mt-40 px-2 md:h-40 md:w-70 md:-ml-20 md:mt-40 px-2">
+							<p class="text-2xl font-bold ">🏨 2020 — The Beginning</p>
+							<p class="font-semibold pt-3 text-justify px-3">Our doors opened with a commitment to exceptional hospitality.</p>
+						</div>
+			
+						<div class="border-5 border-solid border-yellow-600 bg-white text-black h-40 w-70 -ml-20 mt-95 px-2 md:h-40 md:w-70 md:-ml-15 md:mt-95 md:px-2 xl:h-40 xl:w-70 xl:-ml-10 xl:mt-95 xl:px-2">
+							<p class="text-2xl font-bold ">🌟 2022 — Growing Together</p>
+							<p class="font-semibold pt-3 text-justify px-3">New rooms, dining experiences, and guest facilities were introduced.</p>
+						</div>
+			
+						<div class="border-5 border-solid border-yellow-600 bg-white text-black h-40 w-70 -ml-50 mt-150 px-2 md:h-40 md:w-70 md:-ml-15 md:mt-40 md:px-2 xl:h-40 xl:w-70 xl:ml-3 xl:mt-40 xl:px-2">
+							<p class="text-2xl font-bold ">⭐ 2024 — A New Standard</p>
+							<p  class="font-semibold pt-3 text-justify px-3">We expanded our luxury services and wellness experiences.</p>
+						</div>
+			
+						<div class="border-5 border-solid border-yellow-600 bg-white text-black h-40 w-70 -ml-80 mt-205 md:h-40 md:w-70 md:-ml-45 md:-mt-15 xl:h-40 xl:w-70 xl:-ml-10 xl:-mt-15">
+							<p class="text-2xl font-bold pl-2 ">👑 2026 — Azure Crown Today</p>
+							<p class="font-semibold pt-3 text-justify px-3">A modern luxury destination welcoming guests from around the world.</p>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+		   <!---Moments That Shaped Us--->
+			<section>
+			
+				<div class="border-5 border-solid border-black bg-yellow-500 text-blue-800 w-105 py-3 ml-23 mt-5 md:w-140 md:py-3 md:ml-35 md:mt-5 xl:w-140 xl:py-3 xl:ml-95 xl:mt-5">
+					<p class="text-4xl font-bold px-5">📸 Moments That Shaped Us</p>
+				</div>
+				
+				<div class="grid grid-rows-5 mt-20 ml-20 md:grid grid-cols-2 grid-rows-3 md:mt-20 md:ml-10 xl:grid grid-cols-2 grid-rows-3 xl:mt-20 xl:ml-40">
+				
+					<div class="border-5 border-solid border-blue-900 bg-white text-yellow-600 rounded-4xl h-40 w-80 p-2 ml-5 md:ml-0 xl:ml-0">
+						<p class="text-2xl font-bold pt-5">🎉 First Hotel Opening</p>
+						<p class="font-semibold pt-3 text-justify px-3">A memorable beginning to our journey.</p>
+					</div>
+					
+					<div class="border-5 border-solid border-blue-900 bg-white text-yellow-600 rounded-4xl h-40 w-85 p-2 -ml-35 mt-50 md:mt-0 md:ml-2 xl:mt-0 xl:ml-20">
+						<p class="text-2xl font-bold pt-5">🏆 First Major Celebration</p>
+						<p class="font-semibold pt-3 text-justify px-3">Celebrating our achievements and milestones.</p>
+					</div>
+			
+					<div class="border-5 border-solid border-blue-900 bg-white  rounded-4xl h-57 w-85 ml-3 mt-10  md:ml-50 md:-mt-5  xl:ml-80 xl:-mt-5">
+						<img src="image\hotel-moments.jpg" class="rounded-4xl">
+					</div>
+				
+					<div class="row-start-3 col-start-1 border-5 border-solid border-blue-900 bg-white text-yellow-600 rounded-4xl h-40 w-80 p-2 -mt-13 ml-5 md:ml-0 md:mt-5 xl:ml-0 xl:mt-5">
+						<p class="text-2xl font-bold pt-5">🤝 Team Milestone</p>
+						<p class="font-semibold pt-3 text-justify px-3">A dedicated team built on passion and professionalism.</p>
+					</div>		
+				
+					<div class="row-start-3 border-5 border-solid border-blue-900 bg-white text-yellow-600 rounded-4xl h-40 w-80 p-2 mt-35 -ml-30 md:mt-5 md:ml-5 xl:mt-5 xl:ml-15">
+						<p class="text-2xl font-bold pt-5">❤️ Guest Experiences</p>
+						<p class="font-semibold pt-3 text-justify px-3">Creating special memories for every guest who visits us.</p>
+					</div>		
+				
+				
+				</div>
+			</section>
+		   <!---The Heart Behind Azure Crown--->
+			<section>
+				<div class="bg-gray-100 rounded-4xl -mt-190 pb-15 pt-10 h-370 w-150  md:-mt-100 md:pb-15 md:pt-10 md:h-220 md:w-full xl:-mt-100 xl:pb-15 xl:pt-10 xl:h-160 xl:w-full">
+					<div class="border-5 border-solid border-black bg-yellow-500 text-blue-800 py-2 w-135 mt-10 ml-5 md:w-165 md:mt-10 md:ml-10 xl:w-165 xl:mt-10 xl:ml-90">
+						<p class="text-4xl font-bold px-5">👨‍🍳 The Heart Behind Azure Crown</p>
+					</div>
+					
+					<div class="grid grid-rows-3 mt-20 ml-20  md:grid grid-cols-3 md:mt-20 md:ml-15 xl:grid grid-cols-3 xl:mt-20 xl:ml-20">
+					
+						<div class="-ml-7 px-5 md:ml-0 md:px-5 xl:ml-5 xl:px-5">
+							<p class="text-2xl font-bold w-100">👩‍💼👨‍🍳Our People</p>
+							<p class="text-justify pt-5 w-110 md:w-40 xl:w-90" style="line-height:2.0">Our people are the heart of Azure Crown Hotel. 
+							From our welcoming front-desk team to our talented chefs, 
+							housekeeping professionals, wellness specialists, and event experts,
+							every member plays an important role in creating exceptional guest experiences.</p>
+							<button class="mt-5 px-3 py-3 border border-solid border-blue-900 bg-blue-900 text-white font-semibold ">Meet Our Team →</button>
+						</div>
+						
+						<div class="mt-90 w-90 md:mt-0 xl:mt-0">
+							<img src="image\our-people.jpg " class="-ml-25 h-60 rounded-2xl  md:ml-15 md:h-60 md:w-120   xl:ml-0 xl:h-80 xl:w-120 ">
+						</div>
+						
+						<div class="mt-180 font-semibold -ml-57 md:mt-70 md:font-semibold md:-ml-37 xl:mt-7 xl:font-semibold xl:ml-7">
+						
+							<div class="border-2 border-solid border-yellow-600 text-center w-60 px-5 py-3 ">
+								<p>James Willson</p>
+								<p>General Manager</p>
+							</div>
+							<div class="border-2 border-solid border-yellow-600 text-center w-60 px-5 py-3 mt-5">
+								<p>Sophia Rao</p>
+								<p>Guest Relations Manager</p>
+							</div>
+							<div class="border-2 border-solid border-yellow-600 text-center w-60 px-5 py-3 mt-5">
+								<p>Arjun Mehta</p>
+								<p>Executive Chef</p>
+							</div>
+							
+						</div>
+						
+					</div>
+			
+				</div>
+			</section>
+		   <!---Your Story Could Begin Here--->
+			<section>
+				<div class="border-8 border-dashed border-black h-70 w-150 ml-1 py-2 mt-5 md:h-70 md:w-190 md:ml-0 md:py-5 md:mt-5 xl:h-70 xl:w-230 xl:ml-60 xl:py-5 xl:mt-5">
+					<p class="text-xl font-bold text-blue-800 text-center">🌅 Your Story Could Begin Here</p>
+					<p class="text-yellow-600 font-semibold px-5 pt-15 ">Every stay creates a new memory. Come experience the next chapter of Azure Crown Hotel and create a story of your own.</p>
+					<button class="border border-solid border-blue-800 ml-50 mt-10 font-bold rounded-2xl md:ml-70 xl:ml-90">✨ Book Your Stay →</button>
+				</div>
+			</section>
+			<!---footer--->
+				<section>
+					<div class="mt-5 w-150 md:w-190 xl:w-full">
+						<img src="image\footer.jpg" class=" h-40  xl:h-70 ">
+					</div>
+				</section>
+		</body>
+	</html>
