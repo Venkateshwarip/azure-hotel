@@ -1,0 +1,338 @@
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+		<title>ROOMS-SUITES</title>
+  </head>
+  <body>
+			<!---navigation--->
+					<nav class="w-full bg-blue-900 z-100 fixed ">
+						<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+					<!----Logo---->
+						<a href="#"><img src="image\hotel-logo.jpg" class="w-25 pl-5 md:w-45 md:pl-5  md xl:w-50 xl:pl-15 rounded-xl -mt-5 md:mt-5 z-10"></a>
+					<!---desktop navigation--->
+						<div class="hidden md:flex space-x-10 md:mr-10 text-white font-bold">
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul class="hidden md:block ">
+								<li>
+									<input type="checkbox" id="discover" class="hidden peer">
+									<label for="discover">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="stay" class="hidden peer">
+									<label for="stay">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="explore" class="hidden peer">
+									<label for="explore">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class="hidden md:block">
+								<li>
+									<input type="checkbox" id="connect" class="hidden peer">
+									<label for="connect">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+					<!-- Desktop Button -->
+							<button class="w-30 xl:ml-50 items-center bg-yellow-500 text-white">Book Now</button>
+
+
+						</div>
+
+					<!-- Mobile Menu Button -->
+							<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+								<span class="block w-6 h-0.5 bg-white"></span>
+							</label>
+						</div>
+					<!-- Hidden Checkbox -->
+					<input type="checkbox" id="menuToggle" class="hidden peer">
+
+					<!-- Mobile Menu -->
+						<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+							<ul>
+								<li>
+									<input type="checkbox" id="home" class="hidden peer">
+									<label for="home"><a href="index.html">Home</a></label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="discover1" class="hidden peer">
+									<label for="discover1">Discover</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="about-us-hejexpro1.html">About Us</a></li>
+											<li><a href="our-story-hejexpro1.html">Our Story</a></li>
+											<li><a href="Awards-Recognition-hejexpro1.html">Accolades</a></li>
+											<li><a href="Guest-Stories-hejexpro1.html">Guest Stories</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="stay1" class="hidden peer bg-stone-100">
+									<label for="stay1">Stay</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="Rooms -Suites-hejexpro1.html">Rooms & Suites</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="explore1" class="hidden peer">
+									<label for="explore1">Explore</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="fine-dining.html">Fine Dining</a></li>
+											<li><a href="serenity.html">Serenity</a></li>
+											<li><a href="Aqua-hejexpro1.html">Aqua</a></li>
+											<li><a href="vitality-hejexpro1.html">Vitality</a></li>
+											<li><a href="gather-hejexpro1.html">Gather</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<input type="checkbox" id="connect1" class="hidden peer bg-stone-100">
+									<label for="connect1">Connect</label>
+									<div class="hidden peer-checked:block text-black bg-stone-100">
+										<ul>
+											<li><a href="gallery-hejexpro1.html">Gallery</a></li>
+											<li><a href="privileges-hejexpro1.html">Privileges</a></li>
+											<li><a href="contact-us-hejexpro-1.html">Contact Us</a></li>
+											<li><a href="Help Centre.html">Help Centre</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						</div>
+					</nav>
+			<!---Stay in Your Own Kind of Luxury--->
+			<section>
+				<div class="bg-yellow-600 w-full h-200 pt-3 md:pt-3 xl:pt-8 px-20 grid grid-cols-2 md:w-full md:h-1/2 xl:w-full xl:h-1/2 xl:grid grid-cols-2">
+					<div class="pt-30 w-60 ">
+						<img src ="image\room1.jpg" class="h-40  md:h-45 md:w-70 xl:h-40 xl:w-50">
+					</div>
+					<div class="grid grid-rows-3 pt-15 -ml-40 md:grid grid-rows-3 md:pt-20 md:-ml-20 xl:grid grid-cols-3 xl:-ml-90 ">
+
+						<div class="border-2 border-solid border-blue-900 rounded-full h-40 w-85 mt-60 md:h-40 md:w-75 md:ml-30 md:mt-7 xl:-ml-0 xl:h-40 xl:w-85 xl:mt-7">
+							<p class="px-2 text-justify pt-5 w-70 text-center pl-15">Discover beautifully designed rooms and suites where elegant
+							interiors, modern comforts, and peaceful surroundings come together.</p>
+						</div>
+						<div class="border-2 border-solid border-blue-900 text-xl font-bold rounded-full h-40 w-55 mt-100 -ml-10 md:h-40 md:w-55 md:mt-60 md:-ml-80 xl:h-40 xl:w-55 xl:mt-7 xl:ml-10">
+							<button class="pt-15 pl-5">🔎 Explore Rooms</button>
+						</div>
+						<div class="border-2 border-solid border-blue-900 text-xl font-bold rounded-full h-40 w-55 mt-140 -ml-30 md:h-40 md:w-55 md:mt-60 md:-ml-20 xl:h-40 xl:w-55 xl:mt-7 xl:-ml-10 ">
+							<button class="pt-15 pl-5">  🛎️ Book Your Stay</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---Find Your Perfect Stay--->
+			<section>
+				<div class="mt-5 pb-20 ">
+					<div class="border-5 border-solid border-black bg-blue-900 text-white w-92 h-23 ml-3 md:w-115 md:h-15 md:ml-40 xl:w-115 xl:h-15 xl:ml-120">
+						<p class="font-bold text-4xl">🛏️ Find Your Perfect Stay</p>
+					</div>
+					<div class=" mt-5 ml-8 md:mt-5 md:ml-10 xl:mt-10 xl:ml-30">
+						<p class="font-bold text-xl text-yellow-900 text-justify w-80 md:w-170 xl:w-250">Whether you're travelling alone, enjoying a family holiday, or 
+						celebrating a special occasion, Azure Crown Hotel offers a stay designed for every kind of traveller.</p>
+					</div>
+					
+					<div class="ml-10 mt-5 md:ml-35 md:mt-5 xl:ml-130 xl:mt-10 ">
+						<dl class="space-y-5">
+							<dt class="text-black font-bold text-2xl">👤 Solo Escape</dt>
+							<dd class="text-yellow-600 font-semibold text-xl">A comfortable and peaceful space to relax.</dd>
+							<dt class="text-black font-bold text-2xl">👨‍👩‍👧 Family Getaway</dt>
+							<dd class="text-yellow-600 font-semibold text-xl">Spacious accommodation designed for families.</dd>					
+							<dt class="text-black font-bold text-2xl">💼 Business Stay</dt>
+							<dd class="text-yellow-600 font-semibold text-xl">Comfortable rooms with dedicated work spaces.</dd>					
+							<dt class="text-black font-bold text-2xl">💑 Romantic Escape</dt>
+							<dd class="text-yellow-600 font-semibold text-xl">Elegant surroundings for unforgettable moments.</dd>			
+						</dl>
+					</div>
+				
+				</div>
+			</section>
+			<!---Deluxe Room--->
+			<section>
+				<div class="grid grid-rows-2 bg-yellow-600 rounded-4xl pt-20 pb-20 h-330 -mt-15 md:grid grid-rows-2 md:pt-20 md:pb-20 md:h-320 xl:grid grid-cols-2  xl:pt-20 xl:pb-20 xl:h-230">
+					<div class="pl-20 w-80 md:pl-20 md:w-160 xl:pl-20">
+						<img src="image\Deluxe-scaled.jpg"class="h-90  rounded-4xl md:h-90 xl:h-190 " >
+					</div>
+					
+					<div class="border-5 border-dotted border-white bg-blue-900 rounded-4xl w-80 h-190 pt-10 pb-10 mt-100 -ml-40 md:mt-100 md:-ml-80 md:w-150 md:pt-10 md:pb-10 md:h-186 xl:-ml-10 xl:mt-0 xl:w-150 xl:pt-10 xl:pb-10 xl:h-190">
+						<p class="text-4xl font-bold text-yellow-600 text-center">Deluxe Room</p>
+						<p class="text-2xl font-bold text-white w-80 pt-10 pl-10 md:w-130 xl:w-130">A stylish retreat combining contemporary design with everyday comfort.</p>
+						
+						<div class="text-xl text-yellow-600 font-bold pt-5 pl-20" style="line-height:3.0">
+							<p>🛏️ King-size Bed</p>
+							<p>📶 High-Speed Wi-Fi</p>
+							<p>📺 Smart TV</p>
+							<p>❄️ Air Conditioning</p>
+							<p>🚿 Luxury Bathroom</p>
+							<p>🏙️ City View</p>
+						</div>
+						<p class="text-xl text-white font-semibold pt-5 pl-10">From ₹6,500 / night</p>
+						<div class="border border-solid bg-white w-60 p-2 ml-10 mt-5 md:ml-70 xl:ml-70">
+							<button class="text-2xl text-yellow-600 text-bold">View Room →</button>
+						</div>
+					</div>
+			
+				</div>
+			</section>
+			<!---Executive Room--->
+			<section>
+				<div class="grid grid-rows-2 bg-black rounded-4xl pt-20 pb-20 h-330 mt-5 md:grid grid-rows-2 md:pt-20 md:pb-20 md:h-340 md:mt-5 xl:grid grid-cols-2 xl:mt-5 xl:pt-20 xl:pb-20 xl:h-230">
+					
+					<div class="border-5 border-dotted border-black bg-white rounded-4xl w-80 h-200 pt-10 pb-10 mt-100 ml-10 md:mt-100 md:ml-20 md:w-150 md:pt-10 md:pb-10 md:h-196 xl:ml-20 xl:mt-0 xl:w-150 xl:pt-10 xl:pb-10 xl:h-190">
+						<p class="text-4xl font-bold text-blue-800 text-center">Executive Room</p>
+						<p class="text-2xl font-bold text-justify text-black w-75 pt-10 pl-10 md:w-130 xl:w-130">Designed for guests who want comfort and productivity in one sophisticated space.</p>
+						
+						<div class="text-xl text-black font-bold pt-5 pl-20" style="line-height:3.0">
+							<p>💼 Work Desk</p>
+							<p>🛏️ King Bed</p>
+							<p>☕ Coffee Station</p>
+							<p>📶 Premium Wi-Fi</p>
+							<p>🛁 Modern Bathroom</p>
+							<p>🏙️ City View</p>
+						</div>
+						<p class="text-xl text-black font-semibold pt-5 pl-10">From ₹8,500 / night</p>
+						<div class="border border-solid bg-black w-60 p-3 ml-10 mt-5 md:ml-70 xl:ml-70">
+							<button class="text-2xl text-white text-bold">Explore Executive →</button>
+						</div>
+					</div>
+					
+					<div class="pl-20 w-80 -ml-50 md:pl-20 md:w-160 md:-ml-80 xl:pl-12 xl:-ml-10">
+						<img src="image\executive1.jpg"class="h-90  rounded-4xl md:h-90 xl:h-190 " >
+					</div>
+			
+				</div>
+			</section>
+			<!---Azure Crown Suite--->
+			<section>
+				<div class="grid grid-rows-2 bg-blue-900 rounded-4xl pt-20 pb-20 h-390 mt-5 md:grid grid-rows-2 md:pt-20 md:pb-20 md:h-340 md:mt-5 xl:grid grid-cols-2  xl:pt-20 xl:pb-20 xl:h-230 xl:mt-5">
+					<div class="pl-20 w-80 md:pl-20 md:w-160 xl:pl-20">
+						<img src="image\room3.jpg"class="h-90  rounded-4xl md:h-90 xl:h-190 " >
+					</div>
+					
+					<div class="border-5 border-dotted border-blue-800 bg-yellow-600 rounded-4xl w-80 h-260 pt-10 pb-10 mt-100 -ml-40 md:mt-100 md:-ml-80 md:w-150 md:pt-10 md:pb-10 md:h-205 xl:-ml-10 xl:mt-0 xl:w-150 xl:pt-10 xl:pb-10 xl:h-190">
+						<p class="text-4xl font-bold text-blue-800 text-center">💎 Azure Crown Suite</p>
+						<p class="text-2xl font-bold text-justify text-white w-75 pt-10 pl-10 md:w-130 xl:w-140">Experience elevated comfort in our signature suite, featuring a 
+						spacious bedroom, elegant living area, premium amenities, and breathtaking views..</p>
+						
+						<div class="text-xl text-blue-800 font-bold pt-5 pl-20" style="line-height:3.0">
+							<p>🛏️ Luxury King Bed</p>
+							<p>🛋️ Separate Living Area-Fi</p>
+							<p>🛁 Premium Bathroom</p>
+							<p>🌇 Panoramic View</p>
+							<p>🍾 Private Lounge Area</p>
+							<p>🛎️ Personalized Service</p>
+						</div>
+						<p class="text-xl text-white font-semibold pt-5 pl-10">From ₹15,000 / night</p>
+						<div class="border border-solid bg-white w-60 p-3 ml-10 md:-mt-3 xl:-mt-3 md:ml-70 xl:ml-70 xl:w-70">
+							<button class="text-2xl text-blue-800 text-bold">Discover the Suite →</button>
+						</div>
+					</div>
+			
+				</div>
+			</section>
+			<!---What Every Stay Includes--->
+			<section>
+				<div class="mt-5 md:h-50 xl:h-150">
+				
+					<div>
+						<p class=" border border-solid text-4xl font-bold text-center h-23 w-90 ml-5  md:h-12 md:w-140 md:ml-20  xl:h-12 xl:w-140 xl:ml-90 ">Comfort Comes Standard</p>
+						<p class="text-xl font-bold text-center pt-10">Every room at Azure Crown Hotel includes carefully selected amenities to make your stay effortless.</p>
+					</div>
+					
+					<div class=" grid grid-rows-6 text-yellow-600 h-180 mx-60 gap-10 mt-10 ml-10 md:grid grid-cols-2 grid-rows-3 md:mx-60 md:gap-30 md:mt-10 md:ml-30 md:h-100 xl:grid grid-cols-2 grid-rows-3 xl:mx-60 xl:gap-40 xl:mt-10 xl:ml-80 xl:h-100">
+					
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63">
+							<p class="py-5">📶 Free Wi-Fi</p>
+						</div>
+						
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63 mt-30 ml-5 md:mt-0 xl:mt-0">
+							<p class="py-5">🛎️ 24/7 Service</p>
+						</div>
+
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63 mt-25 md:mt-0 xl:mt-0">
+							<p  class="py-5">🚗 Secure Parking</p>
+						</div>
+						
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63 mt-55 ml-5 md:mt-0 xl:mt-0">
+							<p class="py-4">☕ Complimentary Tea & Coffee</p>
+						</div>
+										
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63  mt-50 md:mt-0 xl:mt-0">
+							<p  class="py-5">🧴 Premium Toiletries</p>
+						</div>
+						
+						<div class="border-2 border-dashed border-black text-2xl font-bold text-center h-23 w-63 mt-80 ml-5 md:mt-0 xl:mt-0">
+							<p class="py-4">🧹 Daily Housekeeping</p>
+						</div>
+						
+
+					</div>
+			
+				</div>
+			
+			</section>
+			
+			<!---footer--->
+				<section>
+					<div class="-mt-5 md:mt-85 xl:-mt-45">
+						<img src="image\footer.jpg" class="w-full">
+					</div>
+				</section>
+		</body>
+	</html>
